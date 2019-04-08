@@ -28,10 +28,10 @@ class Library
 
   def add_book(title, book_list)
     book_list.push({
-      title: title ,
+      title: title,
       rental_details: {
-        student_name: "" ,
-        date:"" ,
+        student_name: "",
+        date:"",
       }
       })
     end
@@ -44,6 +44,5 @@ class Library
         end
       end
     end
-
 
   end
