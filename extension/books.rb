@@ -16,7 +16,7 @@ def book_info_from_title(title)
   end
 end
 
-def book_info_from_title(title)
+def rental_info_from_title(title)
   for book in @books
     if book[:title] == title
       return book[:rental_details]
