@@ -17,11 +17,10 @@ class SportsTeam
     return true if @players.include?(name)
   end
 
-def add_point_for_win(result)
-  if result == 'win'
-    @points += 1
+  def add_point_for_win(result)
+    if result == 'win'
+      @points += 1
+    end
   end
-end
-
 
 end
