@@ -5,36 +5,28 @@ class Student
     @cohort = cohort
   end
 
-def get_name
-  @name
-end
+  def get_name
+    @name
+  end
 
-def set_name(new_name)
-  @name = new_name
-end
+  def set_name(new_name)
+    @name = new_name
+  end
 
-def cohort_name
-  @cohort
-end
+  def cohort_name
+    @cohort
+  end
 
-def set_cohort_name(new_cohort)
-  @cohort = new_cohort
-end
+  def set_cohort_name(new_cohort)
+    @cohort = new_cohort
+  end
 
-def can_talk
-  return "I can talk!"
-end
+  def can_talk
+    return "I can talk!"
+  end
 
-def fav_programming_language(language)
-  return "I love #{language}!"
-end
-
-
-
-
-
-
-
-
+  def fav_programming_language(language)
+    return "I love #{language}!"
+  end
 
 end
